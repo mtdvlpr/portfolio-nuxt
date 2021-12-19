@@ -9,7 +9,7 @@
     <v-footer absolute padless app>
       <v-row justify="center" no-gutters>
         <v-btn text rounded class="my-2" to="/">
-          <v-icon left>mdi-home</v-icon>
+          <v-icon left>{{ mdiHome }}</v-icon>
           home
         </v-btn>
         <v-btn
@@ -39,34 +39,43 @@
   </v-app>
 </template>
 <script>
+import {
+  mdiHome,
+  mdiGithub,
+  mdiLinkedin,
+  mdiEmail,
+  mdiInformation,
+  mdiApplicationBrackets,
+} from '@mdi/js'
 export default {
   data() {
     return {
+      mdiHome,
       pages: [
         {
-          icon: 'mdi-information',
+          icon: mdiInformation,
           title: 'About me',
           to: '/#about',
         },
         {
-          icon: 'mdi-email',
+          icon: mdiEmail,
           title: 'Contact',
           to: '/#contact',
         },
         {
-          icon: 'mdi-application-brackets',
+          icon: mdiApplicationBrackets,
           title: 'Projects',
           to: '/#projects',
         },
       ],
       links: [
         {
-          icon: 'mdi-github',
+          icon: mdiGithub,
           title: 'Discover my GitHub profile',
           to: 'https://github.com/mtdvlpr',
         },
         {
-          icon: 'mdi-linkedin',
+          icon: mdiLinkedin,
           title: 'Check me out on LinkedIn',
           to: 'https://www.linkedin.com/in/manoaht/',
         },

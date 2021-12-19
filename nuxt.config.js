@@ -81,6 +81,9 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
+    defaultAssets: {
+      icons: false,
+    },
     treeShake: {
       loaderOptions: {
         progressiveImages: {
@@ -88,6 +91,7 @@ export default {
         },
       },
     },
+    optionsPath: './vuetify.options.js',
     customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: true,

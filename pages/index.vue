@@ -42,6 +42,7 @@
   </v-row>
 </template>
 <script>
+import { mdiGithub, mdiLinkedin, mdiEmail } from '@mdi/js'
 export default {
   data() {
     return {
@@ -61,17 +62,17 @@ export default {
       ],
       links: [
         {
-          icon: 'mdi-github',
+          icon: mdiGithub,
           title: 'Discover my GitHub profile',
           to: 'https://github.com/mtdvlpr',
         },
         {
-          icon: 'mdi-linkedin',
+          icon: mdiLinkedin,
           title: 'Check me out on LinkedIn',
           to: 'https://www.linkedin.com/in/manoaht/',
         },
         {
-          icon: 'mdi-email',
+          icon: mdiEmail,
           title: 'Send me an email',
           to: 'mailto:149895ja@gmail.com',
         },

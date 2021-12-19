@@ -61,13 +61,14 @@
           <v-icon>{{ link.icon }}</v-icon>
         </v-btn>
         <v-btn icon aria-label="Toggle dark mode" @click="toggleDarkMode">
-          <v-icon>mdi-brightness-6</v-icon>
+          <v-icon>{{ mdiBrightness6 }}</v-icon>
         </v-btn>
       </v-toolbar-items>
     </v-app-bar>
   </div>
 </template>
 <script>
+import { mdiBrightness6 } from '@mdi/js'
 export default {
   props: {
     pages: {
@@ -83,6 +84,7 @@ export default {
   },
   data() {
     return {
+      mdiBrightness6,
       drawer: false,
     }
   },
