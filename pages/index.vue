@@ -5,7 +5,7 @@
         <v-card-title class="text-h4 justify-center"> About me </v-card-title>
         <v-card-text>
           <v-img
-            src="/me.jpg"
+            src="@/assets/img/me.jpg"
             contain
             width="50%"
             style="margin: 10px auto"

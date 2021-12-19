@@ -1,8 +1,5 @@
 <template>
   <v-app dark>
-    <flash />
-    <modal />
-    <confirm />
     <navigation :pages="pages" :links="links" />
     <v-main>
       <v-container fluid>

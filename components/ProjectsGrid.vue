@@ -4,7 +4,11 @@
       <v-hover v-slot="{ hover }">
         <v-card :href="card.to" class="pa-2 mb-2 mx-1">
           <v-img
-            :src="card.image ? card.image : 'white.jpeg'"
+            :src="
+              require(`@/assets/img/${
+                card.image ? card.image : 'white.jpeg'
+              }?vuetify-preload`)
+            "
             class="white--text"
             :class="hover ? 'align-start' : 'align-end'"
             gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"

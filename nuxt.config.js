@@ -45,6 +45,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    'nuxt-webfontloader',
     '@nuxtjs/sitemap',
   ],
 
@@ -80,6 +81,13 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
+    treeShake: {
+      loaderOptions: {
+        progressiveImages: {
+          sharp: true,
+        },
+      },
+    },
     customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: true,
