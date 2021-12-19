@@ -3,6 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  modern: 'client',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -15,6 +16,7 @@ export default {
         title: 'Sitemap',
         href: '/sitemap.xml',
       },
+      { rel: 'canonical', href: 'https://manoahtervoort.tk' },
     ],
   },
 
@@ -119,5 +121,11 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extend(config, { isClient }) {
+      if (isClient) {
+        config.devtool = '#source-map'
+      }
+    },
+  },
 }
