@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col v-for="(card, i) in cards" :key="i" md="4" sm="6">
+    <v-col v-for="(card, i) in cards" :key="i" md="6" lg="5">
       <v-hover v-slot="{ hover }">
         <v-card :href="card.to" class="pa-2 mb-2 mx-1">
           <v-img

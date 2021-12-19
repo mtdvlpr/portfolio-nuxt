@@ -108,4 +108,10 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .link {
+    padding-left: 10%;
+  }
+}
 </style>

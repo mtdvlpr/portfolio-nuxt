@@ -8,7 +8,7 @@
     </v-main>
     <v-footer absolute padless app>
       <v-row justify="center" no-gutters>
-        <v-btn text rounded class="my-2" to="/">
+        <v-btn text rounded class="my-2 hidden-sm-and-down" to="/">
           <v-icon left>{{ mdiHome }}</v-icon>
           home
         </v-btn>
@@ -17,7 +17,7 @@
           :key="i"
           text
           rounded
-          class="my-2"
+          class="my-2 hidden-sm-and-down"
           :to="link.to"
           exact
           nuxt
