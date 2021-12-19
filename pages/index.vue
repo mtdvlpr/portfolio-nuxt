@@ -10,6 +10,7 @@
             srcset="/me_192.jpg 192w, /me_384.jpg 384w, /me_512.jpg 512w"
             contain
             width="50%"
+            max-width="512px"
             style="margin: 10px auto"
             alt="Picture of me"
           />
