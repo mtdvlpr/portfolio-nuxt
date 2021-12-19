@@ -6,6 +6,8 @@
         <v-card-text>
           <v-img
             src="@/assets/img/me.jpg"
+            sizes="(max-width: 700px) 192px, (max-width: 1300px) 384px, 512px"
+            srcset="/me_192.jpg 192w, /me_384.jpg 384w, /me_512.jpg 512w"
             contain
             width="50%"
             style="margin: 10px auto"
