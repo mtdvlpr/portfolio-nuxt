@@ -1,4 +1,7 @@
 # portfolio
+
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/mtdvlpr/portfolio/ci/main)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e10aca9f-d598-470d-bc10-bdd28dd8a9d7/deploy-status)](https://app.netlify.com/sites/manoahtervoort/deploys)
 
 ## Build Setup
