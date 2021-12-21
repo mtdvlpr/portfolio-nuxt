@@ -1,4 +1,4 @@
 user-agent: *
-Allow: /
+allow: /
 
-Sitemap: https://manoahtervoort.tk/sitemap.xml
+sitemap: https://www.manoahtervoort.tk/sitemap.xml
