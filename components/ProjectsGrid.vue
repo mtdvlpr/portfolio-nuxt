@@ -6,7 +6,7 @@
           <v-img
             :src="
               require(`@/assets/img/${
-                card.image ? card.image : 'white.jpeg'
+                card.image ? card.image : 'white.webp'
               }?vuetify-preload`)
             "
             class="white--text"

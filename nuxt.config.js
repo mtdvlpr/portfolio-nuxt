@@ -38,6 +38,7 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     '@aceforth/nuxt-netlify',
+    '@nuxtjs/imagemin',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -46,6 +47,7 @@ export default {
     '@nuxtjs/pwa',
     'nuxt-protected-mailto',
     'nuxt-webfontloader',
+    'nuxt-precompress',
     '@nuxtjs/sitemap',
   ],
 

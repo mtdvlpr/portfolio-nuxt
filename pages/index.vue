@@ -6,8 +6,8 @@
         <v-card-text>
           <v-img
             src="@/assets/img/me.webp"
-            sizes="(max-width: 700px) 192px, (max-width: 1300px) 384px, 512px"
-            srcset="/me_192.webp 192w, /me_384.webp 384w, /me_512.webp 512w"
+            sizes="(max-width: 350px) 152px, (max-width: 700px) 192px, (max-width: 1300px) 384px, 512px"
+            srcset="/me_152.webp 152w, /me_192.webp 192w, /me_384.webp 384w, /me_512.webp 512w"
             contain
             width="50%"
             max-width="512px"
@@ -74,13 +74,13 @@ export default {
         {
           title: 'Mag Ik Dit Delen?',
           subtitle: 'MongoDB, Express, React, Node',
-          image: 'midd.png',
+          image: 'midd.webp',
           to: 'https://magikditdelen.nl',
         },
         {
           title: 'Ai And You',
           subtitle: 'MySQL, PHP, JS, HTML5',
-          image: 'aay.png',
+          image: 'aay.webp',
           to: 'http://aiandyou.csgja.com',
         },
       ],

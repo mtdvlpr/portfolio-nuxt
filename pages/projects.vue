@@ -9,25 +9,25 @@ export default {
         {
           title: 'Mag Ik Dit Delen?',
           subtitle: 'MongoDB, Express, React, Node',
-          image: 'midd.png',
+          image: 'midd.webp',
           to: 'https://magikditdelen.nl',
         },
         {
           title: 'Ai And You',
           subtitle: 'MySQL, PHP, JS, HTML5',
-          image: 'aay.png',
+          image: 'aay.webp',
           to: 'http://aiandyou.csgja.com',
         },
         {
           title: 'World Taekwondo Federation',
           subtitle: 'HTML5, CSS3',
-          image: 'wtf.png',
+          image: 'wtf.webp',
           to: 'https://mtdvlpr.github.io/webmarkup-assessment/',
         },
         {
           title: 'Secondary School Portfolio',
           subtitle: 'MySQL, PHP, jQuery, HTML5',
-          image: 'ssp.png',
+          image: 'ssp.webp',
           to: 'http://149895.csgja.com',
         },
         {
@@ -43,13 +43,13 @@ export default {
         {
           title: 'Movie For You',
           subtitle: 'Express, Nuxt, TS, SCSS',
-          image: 'mfy.png',
+          image: 'mfy.webp',
           to: 'https://github.com/mtdvlpr/first-nuxt-app',
         },
         /* {
           title: 'Movie For You',
           subtitle: 'Docker, MySQL, PHP, TS, SCSS',
-          image: 'mfy.png',
+          image: 'mfy.webp',
           to: 'https://github.com/mtdvlpr/php2-assignment',
         }, */
       ],
