@@ -20,12 +20,21 @@
             basketball and running.
           </p>
           <p>This purpose of this website is to show off my work and skills.</p>
+          <p>
+            As you can see, I am not a designer. My strength lies in the logic.
+            I am very good at realizing the flow and logic of a component or
+            page.
+          </p>
+          <p>
+            Tools and technologies I have worked with include: Docker, MongoDB,
+            MySQL, PHP, Express.js, Nuxt.js, React.js, SASS.
+          </p>
         </v-card-text>
       </v-card>
       <v-card id="projects" class="mb-4">
         <v-card-title class="text-h4 justify-center"> Projects </v-card-title>
         <v-card-text>
-          <projects-grid :cards="projects" :more-btn="true" />
+          <projects-grid :cards="projects" :preview="true" />
         </v-card-text>
       </v-card>
       <v-card id="contact" class="mb-4">

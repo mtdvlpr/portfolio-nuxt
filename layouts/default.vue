@@ -58,14 +58,14 @@ export default {
           to: '/#about',
         },
         {
-          icon: mdiEmail,
-          title: 'Contact',
-          to: '/#contact',
-        },
-        {
           icon: mdiApplicationBrackets,
           title: 'Projects',
           to: '/#projects',
+        },
+        {
+          icon: mdiEmail,
+          title: 'Contact',
+          to: '/#contact',
         },
       ],
       links: [

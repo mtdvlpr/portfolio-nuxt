@@ -1,5 +1,5 @@
 <template>
-  <v-row justify="center" align="center">
+  <v-row justify="center" align="center" :class="{ small: !preview }">
     <v-col v-for="(card, i) in cards" :key="i" md="6" lg="5">
       <v-hover v-slot="{ hover }">
         <v-card :href="card.to" class="pa-2 mb-2 mx-1">
@@ -33,7 +33,7 @@
         </v-card>
       </v-hover>
     </v-col>
-    <v-col v-if="moreBtn" cols="12" class="text-center">
+    <v-col v-if="preview" cols="12" class="text-center">
       <v-btn color="primary" to="/projects" nuxt>See all projects</v-btn>
     </v-col>
   </v-row>
@@ -45,7 +45,7 @@ export default {
       type: Array,
       required: true,
     },
-    moreBtn: {
+    preview: {
       type: Boolean,
       default: false,
     },
@@ -55,5 +55,9 @@ export default {
 <style lang="scss" scoped>
 .v-card {
   cursor: pointer;
+}
+.small {
+  width: 80%;
+  margin: 0 auto;
 }
 </style>
