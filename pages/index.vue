@@ -106,6 +106,24 @@ export default {
   font-size: 1.5em;
 }
 
+@media screen and (max-width: 600px) {
+  .v-card__text {
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .v-card__text {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .v-card__text {
+    min-height: 300px;
+  }
+}
+
 .link {
   padding-left: 30%;
 
