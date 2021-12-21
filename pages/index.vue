@@ -47,6 +47,17 @@
                 {{ link.title }}
               </a>
             </v-col>
+            <v-col cols="12" class="link">
+              <v-icon left>{{ mdiEmail }}</v-icon>
+              <Mailto
+                mail="149895ja@gmail.com"
+                subject="Contact - manoahtervoort.tk"
+                title="Send me an email"
+                :style="'color: ' + color"
+              >
+                Send me an email
+              </Mailto>
+            </v-col>
           </v-row>
         </v-card-text>
       </v-card>
@@ -58,6 +69,7 @@ import { mdiGithub, mdiLinkedin, mdiEmail } from '@mdi/js'
 export default {
   data() {
     return {
+      mdiEmail,
       projects: [
         {
           title: 'Mag Ik Dit Delen?',
@@ -82,11 +94,6 @@ export default {
           icon: mdiLinkedin,
           title: 'Check me out on LinkedIn',
           to: 'https://www.linkedin.com/in/manoaht/',
-        },
-        {
-          icon: mdiEmail,
-          title: 'Send me an email',
-          to: 'mailto:149895ja@gmail.com',
         },
       ],
     }

@@ -37,18 +37,29 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@aceforth/nuxt-netlify',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    'nuxt-protected-mailto',
     'nuxt-webfontloader',
     '@nuxtjs/sitemap',
   ],
 
   sitemap: {
     hostname: 'https://manoahtervoort.tk',
+  },
+
+  netlify: {
+    headers: {
+      '/*': [
+        'Permissions-Policy: camera=(), display-capture=(), document-domain=(), geolocation=(), microphone=(), payment=(), usb=()',
+        "Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; img-src data: 'self'; manifest-src 'self';",
+      ],
+    },
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -113,6 +124,11 @@ export default {
       if (isClient) {
         config.devtool = '#source-map'
       }
+    },
+    html: {
+      minify: {
+        decodeEntities: false,
+      },
     },
   },
 }
