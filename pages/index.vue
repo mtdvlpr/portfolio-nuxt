@@ -115,19 +115,19 @@ export default {
 
 @media screen and (max-width: 600px) {
   .v-card__text {
-    min-height: 500px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .v-card__text {
-    min-height: 400px;
+    min-height: 590px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .v-card__text {
-    min-height: 300px;
+    min-height: 630px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .v-card__text {
+    min-height: 740px;
   }
 }
 
