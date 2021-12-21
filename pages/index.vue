@@ -5,9 +5,9 @@
         <v-card-title class="text-h4 justify-center"> About me </v-card-title>
         <v-card-text>
           <v-img
-            src="@/assets/img/me.jpg"
+            src="@/assets/img/me.webp"
             sizes="(max-width: 700px) 192px, (max-width: 1300px) 384px, 512px"
-            srcset="/me_192.jpg 192w, /me_384.jpg 384w, /me_512.jpg 512w"
+            srcset="/me_192.webp 192w, /me_384.webp 384w, /me_512.webp 512w"
             contain
             width="50%"
             max-width="512px"
