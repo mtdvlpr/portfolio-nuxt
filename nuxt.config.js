@@ -64,7 +64,7 @@ export default {
         'X-XSS-Protection: 1; mode=block',
         'Referrer-Policy: no-referrer-when-downgrade',
         'Permissions-Policy: camera=(), display-capture=(), document-domain=(), geolocation=(), microphone=(), payment=(), usb=()',
-        "Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net; img-src data: 'self'; connect-src 'self'; manifest-src 'self';",
+        "Content-Security-Policy: default-src 'none'; style-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'sha256-yX/iyX7D+2AX+qF0YUk4EXLqu5fIbl/NS5QXjj9BX4M=' 'scriptshaplaceholder'; img-src data: 'self'; connect-src 'self'; manifest-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'none';",
       ],
     },
   },
