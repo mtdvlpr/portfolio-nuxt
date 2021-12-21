@@ -68,5 +68,6 @@ export default {
 <style lang="scss" scoped>
 .v-toolbar__title {
   cursor: pointer;
+  min-width: 183px;
 }
 </style>

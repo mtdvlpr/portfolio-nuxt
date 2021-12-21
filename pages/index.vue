@@ -3,7 +3,7 @@
     <v-col cols="12" sm="8" md="8">
       <v-card id="about" class="mb-4">
         <v-card-title class="text-h4 justify-center"> About me </v-card-title>
-        <v-card-text>
+        <v-card-text class="about">
           <v-img
             src="@/assets/img/me.webp"
             sizes="(max-width: 350px) 152px, (max-width: 700px) 192px, (max-width: 1300px) 384px, 512px"
@@ -114,19 +114,43 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
-  .v-card__text {
+  .about {
+    min-height: 590px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about {
     min-height: 590px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .v-card__text {
+  .about {
     min-height: 630px;
   }
 }
 
+@media screen and (max-width: 380px) {
+  .about {
+    min-height: 670px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .about {
+    min-height: 680px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .about {
+    min-height: 715px;
+  }
+}
+
 @media screen and (max-width: 300px) {
-  .v-card__text {
+  .about {
     min-height: 740px;
   }
 }
