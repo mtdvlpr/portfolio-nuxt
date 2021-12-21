@@ -56,8 +56,13 @@ export default {
   },
 
   netlify: {
+    mergeSecurityHeaders: false,
     headers: {
       '/*': [
+        'X-Frame-Options: DENY',
+        'X-Content-Type-Options: nosniff',
+        'X-XSS-Protection: 1; mode=block',
+        'Referrer-Policy: no-referrer-when-downgrade',
         'Permissions-Policy: camera=(), display-capture=(), document-domain=(), geolocation=(), microphone=(), payment=(), usb=()',
         "Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net; img-src data: 'self'; connect-src 'self'; manifest-src 'self';",
       ],
