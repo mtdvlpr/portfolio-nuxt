@@ -59,7 +59,7 @@ export default {
     headers: {
       '/*': [
         'Permissions-Policy: camera=(), display-capture=(), document-domain=(), geolocation=(), microphone=(), payment=(), usb=()',
-        "Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; img-src data: 'self'; manifest-src 'self';",
+        "Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src data: 'self'; connect-src 'self' manifest-src 'self';",
       ],
     },
   },
@@ -124,7 +124,7 @@ export default {
   build: {
     extend(config, { isClient }) {
       if (isClient) {
-        config.devtool = '#source-map'
+        config.devtool = 'source-map'
       }
     },
     html: {
