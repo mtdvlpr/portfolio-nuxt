@@ -1,6 +1,7 @@
 # portfolio
 
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/mtdvlpr/portfolio/main) ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/mtdvlpr/portfolio/ci/main) ![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade-score/manoahtervoort.tk?publish) [![Netlify Status](https://api.netlify.com/api/v1/badges/e10aca9f-d598-470d-bc10-bdd28dd8a9d7/deploy-status)](https://app.netlify.com/sites/manoahtervoort/deploys)
+![Lighthouse accessibility](https://github.com/mtdvlpr/portfolio/tree/main/lighthouse_results/lighthouse_accessibility) ![Lighthouse best practices](https://github.com/mtdvlpr/portfolio/tree/main/lighthouse_results/lighthouse_best-practices) ![Lighthouse performance](https://github.com/mtdvlpr/portfolio/tree/main/lighthouse_results/lighthouse_performance) ![Lighthouse pwa](https://github.com/mtdvlpr/portfolio/tree/main/lighthouse_results/lighthouse_pwa) ![Lighthouse seo](https://github.com/mtdvlpr/portfolio/tree/main/lighthouse_results/lighthouse_seo)
 
 ## Build Setup
 
