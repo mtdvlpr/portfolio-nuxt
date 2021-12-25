@@ -127,11 +127,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extend(config, { isClient }) {
+    /* extend(config, { isClient }) {
       if (isClient) {
         config.devtool = 'source-map'
       }
-    },
+    }, */
     html: {
       minify: {
         decodeEntities: false,
