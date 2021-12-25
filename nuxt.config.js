@@ -16,7 +16,7 @@ export default {
         title: 'Sitemap',
         href: '/sitemap.xml',
       },
-      { rel: 'canonical', href: 'https://manoahtervoort.tk' },
+      { rel: 'canonical', href: 'https://www.manoahtervoort.tk' },
     ],
   },
 
@@ -52,7 +52,7 @@ export default {
   ],
 
   sitemap: {
-    hostname: 'https://manoahtervoort.tk',
+    hostname: 'https://www.manoahtervoort.tk',
   },
 
   netlify: {
@@ -77,7 +77,7 @@ export default {
       theme_color: colors.blue.darken2,
       ogHost:
         process.env.NODE_ENV === 'production'
-          ? 'https://manoahtervoort.tk/'
+          ? 'https://www.manoahtervoort.tk/'
           : 'http://localhost:3000/',
     },
     manifest: {
