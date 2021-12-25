@@ -47,7 +47,7 @@ export default {
     '@nuxtjs/pwa',
     'nuxt-protected-mailto',
     'nuxt-webfontloader',
-    'nuxt-precompress',
+    // 'nuxt-precompress',
     '@nuxtjs/sitemap',
   ],
 
