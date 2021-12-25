@@ -7,3 +7,6 @@ script=$(cat temp.txt)
 sha=$(echo -n "$script" | openssl sha256 -binary | openssl base64)
 sed -i "s|scriptshaplaceholder|sha256-$sha|" dist/_headers
 rm temp.txt
+eval_script='try{g=g||new Function("return this")()}catch(t){"object"==typeof window&&(g=window)}'
+eval_replacement='"object"==typeof window\&\&(g=window)'
+sed -i "s/$eval_script/$eval_replacement/g" dist/_nuxt/*.js
