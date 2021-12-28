@@ -31,6 +31,18 @@ export default {
           to: 'http://149895.csgja.com',
         },
         {
+          title: 'Movie For You',
+          subtitle: 'Express, Nuxt, TS, SCSS',
+          image: 'mfy.webp',
+          to: 'https://github.com/mtdvlpr/first-nuxt-app',
+        },
+        {
+          title: 'Movie For You',
+          subtitle: 'MySQL, PHP, TS, SCSS',
+          image: 'mfy.webp',
+          to: 'https://php2-assignment.herokuapp.com/',
+        },
+        {
           title: 'C# Assignments',
           subtitle: 'C#',
           to: 'https://github.com/mtdvlpr/c-sharp-assignments',
@@ -40,18 +52,6 @@ export default {
           subtitle: 'Java',
           to: 'https://github.com/mtdvlpr/java-assignments',
         },
-        {
-          title: 'Movie For You',
-          subtitle: 'Express, Nuxt, TS, SCSS',
-          image: 'mfy.webp',
-          to: 'https://github.com/mtdvlpr/first-nuxt-app',
-        },
-        /* {
-          title: 'Movie For You',
-          subtitle: 'Docker, MySQL, PHP, TS, SCSS',
-          image: 'mfy.webp',
-          to: 'https://github.com/mtdvlpr/php2-assignment',
-        }, */
       ],
     }
   },
