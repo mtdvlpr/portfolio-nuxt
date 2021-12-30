@@ -2,6 +2,8 @@
   "name": "portfolio",
   "version": "1.0.0",
   "private": true,
+  "author": "Manoah Tervoort",
+  "description": "The developer portfolio of Manoah Tervoort.",
   "scripts": {
     "dev": "nuxt",
     "start": "nuxt start",

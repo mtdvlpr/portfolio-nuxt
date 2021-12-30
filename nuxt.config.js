@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import pkg from './package.json'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -8,7 +9,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s - Manoah's Portfolio",
-    title: 'home',
+    title: 'Home',
     link: [
       {
         rel: 'sitemap',
@@ -73,16 +74,14 @@ export default {
   pwa: {
     meta: {
       name: "Manoah's Portfolio",
-      description: 'The developer portfolio of Manoah Tervoort.',
+      author: pkg.author,
+      description: pkg.description,
       theme_color: colors.blue.darken2,
-      ogHost:
-        process.env.NODE_ENV === 'production'
-          ? 'https://www.manoahtervoort.tk/'
-          : 'http://localhost:3000/',
+      ogHost: 'https://www.manoahtervoort.tk',
     },
     manifest: {
-      lang: 'en',
       name: "Manoah's Portfolio",
+      description: pkg.description,
     },
   },
 
