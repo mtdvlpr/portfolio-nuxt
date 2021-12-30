@@ -17,7 +17,6 @@ export default {
         title: 'Sitemap',
         href: '/sitemap.xml',
       },
-      { rel: 'canonical', href: 'https://www.manoahtervoort.tk' },
     ],
   },
 
