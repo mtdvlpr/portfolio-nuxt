@@ -11,7 +11,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
 
-    if: ${{ github.actor == 'dependabot[bot]' && env.GITHUB_BASE_REF == 'dev' }}
+    if: ${{ github.actor == 'dependabot[bot]' && $GITHUB_BASE_REF == 'dev' }}
 
     steps:
       - name: Generate token
