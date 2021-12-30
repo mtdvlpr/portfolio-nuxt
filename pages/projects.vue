@@ -56,7 +56,12 @@ export default {
     }
   },
   head() {
-    return { title: 'Projects' }
+    return {
+      title: 'Projects',
+      link: [
+        { rel: 'canonical', href: 'https://www.manoahtervoort.tk/projects' },
+      ],
+    }
   },
 }
 </script>

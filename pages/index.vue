@@ -99,7 +99,10 @@ export default {
     }
   },
   head() {
-    return { title: 'Home' }
+    return {
+      title: 'Home',
+      link: [{ rel: 'canonical', href: 'https://www.manoahtervoort.tk' }],
+    }
   },
   computed: {
     color() {
