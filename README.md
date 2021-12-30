@@ -2,8 +2,6 @@
 
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/mtdvlpr/portfolio/main) ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/mtdvlpr/portfolio/ci/main) ![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade-score/manoahtervoort.tk?publish) [![Netlify Status](https://api.netlify.com/api/v1/badges/e10aca9f-d598-470d-bc10-bdd28dd8a9d7/deploy-status)](https://app.netlify.com/sites/manoahtervoort/deploys)
 
-[Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?gist=c3827b3b8e68f75d502f329764b22a03)
-
 ## Build Setup
 
 ```bash
