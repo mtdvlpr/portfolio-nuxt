@@ -30,7 +30,7 @@
           <strong>Manoah Tervoort</strong>
         </v-col>
         <v-col class="text-center" cols="12">
-          <a href="/sitemap.xml" class="link" :style="'color: ' + color"
+          <a href="/sitemap.html" class="link" :style="'color: ' + color"
             >sitemap</a
           >
         </v-col>
