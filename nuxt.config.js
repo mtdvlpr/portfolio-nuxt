@@ -48,12 +48,7 @@ export default {
     'nuxt-protected-mailto',
     'nuxt-webfontloader',
     'nuxt-precompress',
-    '@nuxtjs/sitemap',
   ],
-
-  sitemap: {
-    hostname: 'https://www.manoahtervoort.tk',
-  },
 
   netlify: {
     mergeSecurityHeaders: false,
