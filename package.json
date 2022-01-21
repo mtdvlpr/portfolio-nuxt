@@ -50,7 +50,7 @@
     "eslint-plugin-vue": "^8.3.0",
     "husky": "^7.0.4",
     "lighthouse-badges": "^1.1.17",
-    "lint-staged": "^12.2.1",
+    "lint-staged": "^12.2.2",
     "postcss-html": "^1.3.0",
     "prettier": "^2.5.1",
     "stylelint": "^14.2.0",
