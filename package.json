@@ -49,7 +49,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^8.4.0",
     "husky": "^7.0.4",
-    "lighthouse-badges": "^1.1.17",
+    "lighthouse-badges": "^1.1.18",
     "lint-staged": "^12.3.2",
     "postcss-html": "^1.3.0",
     "prettier": "^2.5.1",
