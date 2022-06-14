@@ -24,11 +24,12 @@
                 Open project
               </div>
             </v-scale-transition>
-            <v-card-title v-if="!hover" v-text="card.title" />
-            <v-card-subtitle
-              v-if="!hover && card.subtitle"
-              v-text="card.subtitle"
-            />
+            <v-card-title v-if="!hover">
+              {{ card.title }}
+            </v-card-title>
+            <v-card-subtitle v-if="!hover && card.subtitle">
+              {{ card.subtitle }}
+            </v-card-subtitle>
           </v-img>
         </v-card>
       </v-hover>
