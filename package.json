@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@aceforth/nuxt-netlify": "^1.1.0",
-    "@babel/eslint-parser": "^7.18.9",
+    "@babel/eslint-parser": "^7.19.1",
     "@mdi/js": "^7.0.96",
     "@nuxtjs/eslint-config": "^11.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
