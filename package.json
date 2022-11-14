@@ -28,9 +28,9 @@
     "nuxt-protected-mailto": "^0.0.12",
     "nuxt-webfontloader": "^1.1.0",
     "sharp": "^0.31.2",
-    "vue": "2.7.13",
+    "vue": "2.7.14",
     "vue-server-renderer": "2.7.14",
-    "vue-template-compiler": "2.7.13",
+    "vue-template-compiler": "2.7.14",
     "vuetify": "^2.6.12",
     "webpack": "^4.46.0"
   },
