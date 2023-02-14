@@ -23,7 +23,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.28.0",
-    "nuxt": "^2.16.0",
+    "nuxt": "^2.16.1",
     "nuxt-precompress": "^0.5.9",
     "nuxt-protected-mailto": "^0.0.12",
     "nuxt-webfontloader": "^1.1.0",
