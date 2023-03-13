@@ -39,7 +39,7 @@
     "@babel/eslint-parser": "^7.19.1",
     "@mdi/js": "^7.1.96",
     "@nuxtjs/eslint-config": "^12.0.0",
-    "@nuxtjs/eslint-module": "^4.0.1",
+    "@nuxtjs/eslint-module": "^4.0.2",
     "@nuxtjs/imagemin": "^1.0.1",
     "@nuxtjs/stylelint-module": "^5.0.0",
     "@nuxtjs/vuetify": "^1.12.3",
