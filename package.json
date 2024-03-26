@@ -47,7 +47,7 @@
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-vue": "^9.23.0",
+    "eslint-plugin-vue": "^9.24.0",
     "husky": "^8.0.3",
     "lighthouse-badges": "^1.2.18",
     "lint-staged": "^14.0.1",
