@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
-    "core-js": "^3.38.1",
+    "core-js": "^3.40.0",
     "nuxt": "^2.18.1",
     "nuxt-precompress": "^0.5.9",
     "nuxt-protected-mailto": "^0.1.1",
